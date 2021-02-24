@@ -40,3 +40,32 @@ Eine Relation ist in 2NF, wenn sie in 1NF ist und jedes nicht dem Schlüssel ang
 Eine in 3.Normalform befindliche Relation ist dadurch gekennzeichnet, dass jedes nicht dem Schlüssel angehörende Attribut funktional abhängig ist vom Gesamtschlüssel (=1.NF), nicht aber von einzelnen Schlüsselteilen (=2.NF). Weiters sind keine transitiven Abhängigkeiten (funktionale Abhängigkeiten zwischen Nicht-Schlüssel-Attributen) erlaubt.
 Eine Relation ist in 3NF, wenn sie in 2NF ist und keine transitiven Abhängigkeiten aufweist.
 
+Begriffe:
+
+Schlüssel (key) eines Relationenschemas R: K
+ist ein Attribut, mit dessen Wert jede Zeile eindeutig identifiziert wird. Eine Schlüsselsuche auf Gleichheit wird immer maximal 1 Tabellenzeile als Ergebnis liefern.
+
+Schlüsselkandidat
+ist ein Attribut, mit dessen Wert jede Zeile eindeutig identifiziert werden könnte
+
+Primärschlüssel
+synonym für Schlüssel. Er identifiziert ein Objekt während seiner gesamten 'Lebensdauer'. Sein Wert kann nicht geändert werden, denn eine Änderung würde der Schaffung eines neuen Objektes gleichkommen.
+
+Fremdschlüssel
+ist ein Attribut, das in einer anderen Relation ein Primärschlüssel ist (foreign key)
+
+Sekundärschlüssel
+erlaubt den Zugriff auf ein oder mehrere Datensätze
+
+Zusammengesetzter Schlüssel
+Entitäten werden durch mehr als 1 Attribut identifiziert.
+
+Arten von Primary Key:
+
+Künstlicher Schlüssel (Surrogatschlüssel)
+werden automatisch gebildet (z.B. als fortlaufende Nummer)
+
+Natürlicher Schlüssel (sprechender Schlüssel)
+ist ein Schlüsselkandidat mit einer Beziehung zu ein oder mehreren Attributen der Tabellenstruktur (z.B. die Kombination Vorname, Nachname, Geburtsdatum) oder ein Schlüsselkandidat, aus dem weitere Informationen abgelesen werden können  (z.B. ISBN Nummer, in die Land -, Verlags und Titelnummer codiert ist) )
+
+
