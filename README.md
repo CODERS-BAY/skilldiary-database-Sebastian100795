@@ -121,3 +121,30 @@ Normalform
 
 **3NF: keine funktionalen Abhängigkeiten von Nichtschlüsselattributen****
 
+
+**Constraints**
+
+Einschränkungen – beispielsweise referentielle Integrität (siehe Theorie), (kein) Eingabezwang in Felder, Zulassen / Rückweisen bestimmter Werte …..
+werden vom DBMS geprüft
+
+Table – Constraint
+Column - Constraint
+
+**UNIQUE – Constraint **
+
+Definiert, dass in einer (oder einer Kombination mehrerer) Spalte(n) (ein) Wert(e) nur einmal vorkommen darf. NULL – Werte sind zugelassen!
+
+**PRIMARY KEY Constraint**
+
+Legt fest, dass folgende Bedingungen erfüllt sein müssen:
+Kein Primärschlüsselwert kann in mehr als 1 Zeile der Tabelle vorkommen
+Keine Spalte, die Teil des Primärschlüssels ist, kann einen Null – Wert enthalten
+
+Eine Primary Key Constraint ist eine Kombination von Not Null
+und Unique Constraint
+Für eine Tabelle kann nur 1 Primary Key Constraint definiert
+werden
+
+**Referentielle Integrität**
+
+Definiert eine Spalte als Fremdschlüssel, der auf einen Primärschlüssel einer anderen Tabelle verweist. (auch für Spaltenkombinationen gültig!)
