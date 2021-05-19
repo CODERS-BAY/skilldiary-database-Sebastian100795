@@ -1,21 +1,21 @@
-Begriffe:
+**Begriffe:**
 
 Schlüssel (key) eines Relationenschemas R: K
 ist ein Attribut, mit dessen Wert jede Zeile eindeutig identifiziert wird. Eine Schlüsselsuche auf Gleichheit wird immer maximal 1 Tabellenzeile als Ergebnis liefern.
 
-Schlüsselkandidat
+**Schlüsselkandidat**
 ist ein Attribut, mit dessen Wert jede Zeile eindeutig identifiziert werden könnte
 
-Primärschlüssel
+**Primärschlüssel**
 synonym für Schlüssel. Er identifiziert ein Objekt während seiner gesamten 'Lebensdauer'. Sein Wert kann nicht geändert werden, denn eine Änderung würde der Schaffung eines neuen Objektes gleichkommen.
 
-Fremdschlüssel
+**Fremdschlüssel**
 ist ein Attribut, das in einer anderen Relation ein Primärschlüssel ist (foreign key)
 
-Sekundärschlüssel
+**Sekundärschlüssel**
 erlaubt den Zugriff auf ein oder mehrere Datensätze
 
-Zusammengesetzter Schlüssel
+**Zusammengesetzter Schlüssel**
 Entitäten werden durch mehr als 1 Attribut identifiziert.
 
 **BEZIEHUNGEN**
@@ -116,6 +116,8 @@ wird der letzte Student einer Vorlesung gelöscht, so ist der Name der Vorlesung
 Normalform
 
 **1NF: funktional abhängig vom Gesamtschlüssel
-2NF: keine funktionalen Abhängigkeiten von Schlüsselteilen
-3NF: keine funktionalen Abhängigkeiten von Nichtschlüsselattributen**
+
+**2NF: keine funktionalen Abhängigkeiten von Schlüsselteilen**
+
+**3NF: keine funktionalen Abhängigkeiten von Nichtschlüsselattributen****
 
